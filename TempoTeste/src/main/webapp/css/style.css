@@ -1,0 +1,28 @@
+.grid {
+  width: 100%;
+  height: 40px;
+}
+
+
+/*  CUSTOM CSS STARTS HERE */
+.grid .ui-grid-cell-contents {
+  padding: 1px 1px;
+}
+
+.grid .ui-grid-render-container-body .ui-grid-header-cell,
+.grid .ui-grid-render-container-left .ui-grid-header-cell,
+.grid .ui-grid-row,
+.grid .ui-grid-cell,
+.grid .ui-grid-cell .ui-grid-vertical-bar {
+  height: 22px !important;
+  font-size: 12px;
+  line-height: 20px;
+}
+.grid .ui-grid-render-container-body .ui-grid-header-cell,
+.grid .ui-grid-render-container-left .ui-grid-header-cell,
+.grid .ui-grid-header-cell {
+  height: 55px !important;
+}
+.grid .ui-grid-filter-container {
+  padding: 1px 3px;
+}
